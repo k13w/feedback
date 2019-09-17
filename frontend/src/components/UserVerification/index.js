@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header, Container, Panel, Verification } from './styles';
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import api from '../../services/api';
 import { login } from '../../services/auth';
 import { cpfMask } from '../../utils/masks';
@@ -31,15 +31,15 @@ const UserVerification = ({ history }) => {
     }
     return(
         <Container>
-            <Header>
+            <div className="header">
                 <h1>Reconexão e-Tec</h1>
                 <h2>Por favor, identifique-se</h2>
-            </Header>
+            </div>
 
             <Panel>
                 <Verification onSubmit={handleSingIn}>
-                    <div>
-                        <label>Digite seu CPF</label>
+                    <div className="inputCpf">
+                        <label>CPF </label>
                         <input
                             type="text" 
                             placeholder="000.000.000-00"
@@ -48,8 +48,9 @@ const UserVerification = ({ history }) => {
                             onChange={e => setVerification(cpfMask(e.target.value))}
                         />
                     </div>
-                    <div>
-                        <button className="btn-proximo">Próximo</button>     
+                    <div className="footer">
+                        <Link to="/warning"><button className="voltar">Voltar</button></Link>
+                        <button className="btn-proximo">Próximo</button> 
                     </div>
                 </Verification>
             </Panel>

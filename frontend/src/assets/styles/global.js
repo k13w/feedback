@@ -1,8 +1,12 @@
 import { createGlobalStyle } from 'styled-components'
-import background from '../img/background.svg'
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+/* 
+  green: 1dde74
+  red: de1d50
+*/
 
   * {
     margin: 0;
@@ -12,39 +16,62 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #6A5ACD url(${background}) no-repeat center top;
+    background: #edf7ff;
     -webkit-font-smoothing: antialised;
-    /* min-width: 1100px; */
     width: 100%;
   }
 
   body, input, button {
-    font-family: 'Montserrat', sans-serif;
-  }
-  input:focus {
-  }
-  
-  button {
-    cursor: pointer;
-    max-width: 25rem;
-    width: 100%;
-    height: 5rem;
-    position: fixed;
-    bottom: 10%;
-    right: 10%;
-    background-color: #3f51b5;
-    color: white;
-    border-radius: 26px;
-    border: none;
-    font-size: 1.5rem;
-    @media screen and (max-width: 480px) {
-      font-size: 1rem;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 80%;
-      margin: 10%;
-    }
+    font-family: 'Open Sans', sans-serif;
   }
 
+
+  button {
+    /* tamanho */
+    width: 25rem;
+    height: 4rem;
+    padding: 1rem;
+    @media(max-width: 480px){
+      width: 15rem;
+      font-size: 1rem;
+    }
+    /* estilo */
+    background-color: #1dde74;
+    color: #eee;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: 0 .1rem .1rem rgba(0,0,0,.3);
+    /* comportamento */
+    cursor: pointer;
+  }
+  .header {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    @media (max-width: 480px) {
+      text-align: center;
+      font-size: .8rem;
+      margin: 1.5rem 0 0 0;
+    }
+
+  }
+  .footer{
+        margin-top: 10rem;
+        width: 100%;
+        position: fixed;
+        bottom: 10%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        @media(max-width: 480px){
+          position: relative;
+          bottom: 0;
+        }
+    }
+    .voltar {
+        background-color: #de1d50;
+    }
+    a {
+        margin: 1rem;
+    }
 `;
