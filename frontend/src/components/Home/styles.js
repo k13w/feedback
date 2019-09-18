@@ -6,10 +6,12 @@ export const Container = styled.div`
     justify-content: center;
     text-align: center;
     
+    img {
+        margin: 5%;
+        width: 90%;
+        max-width: 400px;
+    }
     div {
-        max-width: 600px;
-        width: 100%;
-        margin: 10%;
     }
 
     h1 {
