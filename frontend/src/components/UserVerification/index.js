@@ -50,7 +50,7 @@ const UserVerification = ({ history }) => {
                     </div>
                     <div className="footer">
                         <Link to="/warning"><button className="voltar">Voltar</button></Link>
-                        <button className="btn-proximo">Próximo</button> 
+                        <Link to="#"><button className="btn-proximo">Próximo</button></Link>
                     </div>
                 </Verification>
             </Panel>
