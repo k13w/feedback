@@ -9,6 +9,8 @@ import Warning from './components/Warning';
 import UserVerification from './components/UserVerification';
 import Welcome from './components/Welcome';
 
+import Email from './components/Email';
+
 import history from './services/history';
 
 const Routes = () => (
@@ -20,6 +22,7 @@ const Routes = () => (
             <Route path='/continue'component={Continue}/>
             <Route path='/user' component={UserVerification} />
             <Route path='/welcome' component={Welcome} />
+            <Route path='/email' component={Email} />
         </Switch>
     </Router>
 )
