@@ -10,6 +10,7 @@ import UserVerification from './components/UserVerification';
 import Welcome from './components/Welcome';
 
 import Email from './components/Email';
+import Parents from './components/Parents';
 
 import history from './services/history';
 
@@ -23,6 +24,7 @@ const Routes = () => (
             <Route path='/user' component={UserVerification} />
             <Route path='/welcome' component={Welcome} />
             <Route path='/email' component={Email} />
+            <Route path='/parents' component={Parents} />
         </Switch>
     </Router>
 )

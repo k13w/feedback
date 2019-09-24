@@ -21,7 +21,7 @@ export default createGlobalStyle`
     width: 100%;
   }
 
-  body, input, button {
+  body, input, button, h1,h2,h3,p,select {
     font-family: 'Open Sans', sans-serif;
   }
 
