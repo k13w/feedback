@@ -12,7 +12,7 @@ const Warning = () => (
 
     <div className="footer">
         <Link to='/about'><button className="voltar" >Voltar</button></Link>
-        <Link to='/user'><button>Continuar</button></Link>
+        <Link to='/continue'><button>Continuar</button></Link>
     </div>
     </Container>
 )
