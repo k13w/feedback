@@ -51,12 +51,13 @@ const UserVerification = ({ history }) => {
                             onChange={e => setVerification(cpfMask(e.target.value))}
                         />
                     </div>
-                    <div className="footer">
-                        <Link to="/warning"><button className="voltar">Voltar</button></Link>
-                        <Link to="#"><button className="btn-proximo">Próximo</button></Link>
-                    </div>
+                    
                 </Verification>
             </div>
+            <div className="footer">
+                    <Link to="/warning"><button className="voltar">Voltar</button></Link>
+                    <Link to="#"><button className="btn-proximo">Próximo</button></Link>
+                </div>
         </Container>
     )
 }
