@@ -1,7 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    
+    .footer {
+        margin-top: 3rem;
+    }
+    input{
+        margin: 0 2rem;
+        max-width: 25rem;
+        width: 80%;
+        font-size: 2rem;
+    }
     .header {
         margin: 0 auto;
         max-width: 230px;   
@@ -22,19 +30,7 @@ export const Container = styled.div`
         }
         position:relative;
     }
-`;
-
-export const Header = styled.div`
-
-`;
-
-export const Panel = styled.div`
-    
-
-`;
-
-export const Verification = styled.form`
-    .inputCpf {
+    .inputPhone {
         margin-top: 15%;
         font-size: 2rem;
         display: flex;
@@ -47,14 +43,14 @@ export const Verification = styled.form`
         text-align: center;
         width: 100%;
     }
-    input{
-        @media (max-width: 480px){
-            font-size: 1.3rem
-        }
-        margin: 0 2rem;
-        max-width: 25rem;
-        width: 80%;
-        font-size: 2rem;
-    }
+`;
+
+export const Header = styled.div`
+  
+
+`;
+
+export const Panel = styled.div`
+    
 
 `;

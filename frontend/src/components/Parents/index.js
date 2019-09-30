@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Hashtag from '../../assets/img/etechashtag.png';
 import { Container } from './styles';
 
-const Parents = () => (
+const School = () => (
     <Container>
     <div className="header">
         <img src={Hashtag}></img>
@@ -46,4 +46,4 @@ const Parents = () => (
     </div>
     </Container>
 )
-export default Parents;
+export default School;

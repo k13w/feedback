@@ -9,11 +9,6 @@ export const Container = styled.div`
     img {
         width: 100%;
     }
-    input {
-        max-width: 25rem;
-        width: 100%;
-        height: 2rem;
-    }
     .main {
         text-align: center;
         font-size: 1.5rem;
@@ -27,5 +22,27 @@ export const Container = styled.div`
             height: 20rem;
         }
         position:relative;
+    }
+    .inputEmail {
+        margin-top: 5%;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 480px) {
+            margin-top: 3rem;
+            flex-direction: column;
+        }
+        text-align: center;
+        width: 100%;
+    }
+    input{
+        @media (max-width: 480px){
+            font-size: 1.3rem
+        }
+        margin: 0 2rem;
+        max-width: 25rem;
+        width: 80%;
+        font-size: 2rem;
     }
 `;

@@ -8,10 +8,10 @@ import Continue from './components/Continue';
 import Warning from './components/Warning';
 import UserVerification from './components/UserVerification';
 import Welcome from './components/Welcome';
-
+import School from './components/School';
 import Email from './components/Email';
 import Parents from './components/Parents';
-
+import Phone from './components/Phone';
 import history from './services/history';
 
 const Routes = () => (
@@ -25,6 +25,9 @@ const Routes = () => (
             <Route path='/welcome' component={Welcome} />
             <Route path='/email' component={Email} />
             <Route path='/parents' component={Parents} />
+            <Route path='/school' component={School} />
+            <Route path='/phone' component={Phone} />
+
         </Switch>
     </Router>
 )

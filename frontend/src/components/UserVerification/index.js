@@ -4,6 +4,8 @@ import { withRouter, Link } from "react-router-dom";
 import api from '../../services/api';
 import { login } from '../../services/auth';
 import { cpfMask } from '../../utils/masks';
+import Hashtag from '../../assets/img/etechashtag.png';
+
 
 const UserVerification = ({ history }) => {
     const [verification, setVerification] = useState('');
@@ -32,11 +34,12 @@ const UserVerification = ({ history }) => {
     return(
         <Container>
             <div className="header">
-                <h1>Reconexão e-Tec</h1>
-                <h2>Por favor, identifique-se</h2>
+                <img src={Hashtag}></img>
+                {/* <h1>Reconexão e-Tec</h1> */}
+                {/* <h2>Sobre o Reconexão</h2> */}
             </div>
 
-            <Panel>
+            <div className="main">
                 <Verification onSubmit={handleSingIn}>
                     <div className="inputCpf">
                         <label>CPF </label>
@@ -53,7 +56,7 @@ const UserVerification = ({ history }) => {
                         <Link to="#"><button className="btn-proximo">Próximo</button></Link>
                     </div>
                 </Verification>
-            </Panel>
+            </div>
         </Container>
     )
 }

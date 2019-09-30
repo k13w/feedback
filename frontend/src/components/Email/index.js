@@ -9,9 +9,10 @@ const Email = () => (
         <img src={Hashtag}></img>
     </div>
     <div className="main">
-        
-        <label>E-Mail</label> <input type="email"></input>
-
+        <div className="inputEmail">
+            <label>E-Mail</label>
+            <input type="email"></input>
+        </div>
 
     </div>
     <div className="footer">
