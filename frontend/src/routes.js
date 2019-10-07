@@ -16,6 +16,7 @@ import Course from './components/Course';
 import MoreCourses from './components/MoreCourses';
 import QuantCourses from './components/QuantCourses';
 import Modality from './components/Modality';
+import Pole from './components/Pole';
 
 
 import history from './services/history';
@@ -37,6 +38,7 @@ const Routes = () => (
             <Route path='/moreCourses' component={MoreCourses} />
             <Route path='/quantcourses' component={QuantCourses} />
             <Route path='/modality' component={Modality} />
+            <Route path='/pole' component={Pole} />
 
 
         </Switch>
