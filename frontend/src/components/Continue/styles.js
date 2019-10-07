@@ -16,20 +16,10 @@ export const Container = styled.div`
     p {
         margin-top: 3%;
     }
-    .main {
+
+    b{
         color: #1dde74;
-        font-size: 1.5rem;
-        text-align: center;
-        margin: 0 5%;
-        background-color: #fff;
-        width: 90%;
-        padding: 30px;
-        float: left;
-        height: 30rem;
-        @media (max-width: 480px){
-            height: 20rem;
-        }
-        position:relative;
     }
+
 
 `;

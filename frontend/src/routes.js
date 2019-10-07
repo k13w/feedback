@@ -12,6 +12,12 @@ import School from './components/School';
 import Email from './components/Email';
 import Parents from './components/Parents';
 import Phone from './components/Phone';
+import Course from './components/Course';
+import MoreCourses from './components/MoreCourses';
+import QuantCourses from './components/QuantCourses';
+import Modality from './components/Modality';
+
+
 import history from './services/history';
 
 const Routes = () => (
@@ -27,6 +33,11 @@ const Routes = () => (
             <Route path='/parents' component={Parents} />
             <Route path='/school' component={School} />
             <Route path='/phone' component={Phone} />
+            <Route path='/course' component={Course} />
+            <Route path='/moreCourses' component={MoreCourses} />
+            <Route path='/quantcourses' component={QuantCourses} />
+            <Route path='/modality' component={Modality} />
+
 
         </Switch>
     </Router>
