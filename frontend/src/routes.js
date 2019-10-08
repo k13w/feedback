@@ -17,7 +17,7 @@ import MoreCourses from './components/MoreCourses';
 import QuantCourses from './components/QuantCourses';
 import Modality from './components/Modality';
 import Pole from './components/Pole';
-
+import CourseRating from './components/CourseRating';
 
 import history from './services/history';
 
@@ -39,6 +39,7 @@ const Routes = () => (
             <Route path='/quantcourses' component={QuantCourses} />
             <Route path='/modality' component={Modality} />
             <Route path='/pole' component={Pole} />
+            <Route path="/courserating" component={CourseRating} />
 
 
         </Switch>
