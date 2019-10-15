@@ -27,6 +27,9 @@ import Hello from './components/Hello';
 import Thankyou from './components/Thankyou';
 import OurHistory from './components/OurHistory';
 import End from './components/End';
+import Reason from './components/Reason';
+import Know from './components/Know';
+import Feedback from './components/Feedback';
 
 
 import history from './services/history';
@@ -59,6 +62,9 @@ const Routes = () => (
             <Route path="/thankyou" component={Thankyou} />
             <Route path="/ourhistory" component={OurHistory} />
             <Route path="/end" component={End} />
+            <Route path="/reason" component={Reason} />
+            <Route path="/know" component={Know} />
+            <Route path="/feedback" component={Feedback} />
 
 
         </Switch>
