@@ -25,6 +25,8 @@ import Demanding from './components/Demanding';
 import Finally from './components/Finally';
 import Hello from './components/Hello';
 import Thankyou from './components/Thankyou';
+import OurHistory from './components/OurHistory';
+import End from './components/End';
 
 
 import history from './services/history';
@@ -55,6 +57,8 @@ const Routes = () => (
             <Route path="/finally" component={Finally} />
             <Route path="/hello" component={Hello} />
             <Route path="/thankyou" component={Thankyou} />
+            <Route path="/ourhistory" component={OurHistory} />
+            <Route path="/end" component={End} />
 
 
         </Switch>
