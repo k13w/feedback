@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Hashtag from '../../assets/img/etechashtag.png';
 import { Container } from './styles';
 
+
 const About = () => (
     <div class="grid-container" className="gridGlobal">
         <div class="grid-y grid-margin-y text-center hide-for-small-only">
