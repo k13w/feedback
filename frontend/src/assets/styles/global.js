@@ -85,15 +85,15 @@ export default createGlobalStyle`
     }
     .main {
         text-align: center;
-        margin: 0 5%;
+        vertical-align: center;
+        margin: 0 auto;
         overflow-y: none;
         background-color: #fff;
-        width: 90%;
+        width: 70%;
         padding: 30px;
-        float: left;
-        height: 30rem;
+        height: 35rem;
         @media (max-width: 480px) {
-            height: 20rem;
+            height: 15rem;
         }
         position: relative;
     }

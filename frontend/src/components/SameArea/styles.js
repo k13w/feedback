@@ -15,20 +15,6 @@ export const Container = styled.div`
         color: #1dde74;
     }
 
-    .main {
-        text-align: center;
-        margin: 0 5%;
-        overflow-y: none;
-        background-color: #fff;
-        width: 90%;
-        padding: 30px;
-        float: left;
-        height: 30rem;
-        @media (max-width: 480px) {
-            height: 20rem;
-        }
-        position: relative;
-    }
     .choose {
         display: flex;
         width: 20%;

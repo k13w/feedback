@@ -21,7 +21,10 @@ import CourseRating from './components/CourseRating';
 import SameArea from './components/SameArea';
 import Studying from './components/Studying';
 import CourseLevel from './components/CourseLevel';
+import Demanding from './components/Demanding';
 import Finally from './components/Finally';
+import Hello from './components/Hello';
+import Thankyou from './components/Thankyou';
 
 
 import history from './services/history';
@@ -48,7 +51,10 @@ const Routes = () => (
             <Route path="/samearea" component={SameArea} />
             <Route path="/studying" component={Studying} />
             <Route path="/courselevel" component={CourseLevel} />
+            <Route path="/demanding" component={Demanding} />
             <Route path="/finally" component={Finally} />
+            <Route path="/hello" component={Hello} />
+            <Route path="/thankyou" component={Thankyou} />
 
 
         </Switch>
