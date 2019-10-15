@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    
     .header {
         margin: 0 auto;
         max-width: 230px;   
@@ -15,9 +14,4 @@ export const Container = styled.div`
         margin-bottom: 1rem;
         color: #1dde74;
     }
-    .main {
-        margin: 0 5%;
-        overflow-y: scroll;
-    }
-    
 `;
