@@ -14,4 +14,7 @@ export const Container = styled.div`
         margin-bottom: 1rem;
         color: #1dde74;
     }
+    .main {
+        overflow-y: scroll;
+    }
 `;

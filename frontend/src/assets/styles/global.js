@@ -65,6 +65,7 @@ export default createGlobalStyle`
         flex-wrap: wrap;
         @media(max-width: 480px){
           position: relative;
+          margin-top: 1rem;
           bottom: 0;
         }
     }
@@ -93,7 +94,8 @@ export default createGlobalStyle`
         padding: 30px;
         height: 35rem;
         @media (max-width: 480px) {
-            height: 15rem;
+            width: 100%;
+            height: 100%;  
         }
         position: relative;
     }

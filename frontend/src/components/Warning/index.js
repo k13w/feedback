@@ -13,7 +13,8 @@ const Warning = () => (
         <img src={Hashtag}></img>
     </div>
     <div className="main">
-
+        <h2>Ótimo, agora você já sabe sobre nós! Queremos saber um pouco mais sobre você, vamos iniciar com a sua Identificação.</h2>
+        <h2>Pressione <strong>Continuar</strong> </h2>
 
     </div>
     <div className="footer">

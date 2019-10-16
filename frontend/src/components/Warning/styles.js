@@ -9,4 +9,8 @@ export const Container = styled.div`
     img {
         width: 100%;
     }
+    h2{
+        margin-bottom: 1rem;
+        color: #1dde74;
+    }
 `;

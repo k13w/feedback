@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 const Home = () => (
     <Container>
-        <div>
+        <div className="main">
             <img src="imgs/logo.png" />
             <h1>Reconexão e-Tec</h1>
             <h3>Bem vindo</h3>
