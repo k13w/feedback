@@ -22,5 +22,10 @@ export const Container = styled.div`
     .option {
         width: 250px;
     }
-
+    span {
+        color: #727171;
+        width: 10rem;
+        padding: 1rem;
+        border: 5px solid #727171;
+    }
 `;

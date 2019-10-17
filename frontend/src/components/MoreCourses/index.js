@@ -13,11 +13,11 @@ const MoreCourses = () => (
         <div className="choose">
             <div className="option">
                 <input className="checkmark" type="Radio" id="yes" name="choose" /*value="yes"*/ />
-                <label htmlFor="yes">Sim</label>
+                <label htmlFor="yes"><span>Sim</span></label>
             </div>
             <div className="option">
                 <input className="checkmark" type="Radio" id="no" name="choose" /*value="no"*/ />
-                <label htmlFor="no">Não</label>
+                <label htmlFor="no"><span>Não</span></label>
             </div>
 
         </div>
